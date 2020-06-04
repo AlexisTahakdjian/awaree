@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "alexis",
+    "password": "password",
+    "database": "awaree_dev",
+    "host": "127.0.0.1",
+    "port": "8889",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "alexis",
+    "password": "password",
+    "database": "awaree_test",
+    "host": "127.0.0.1",
+    "port": "8889",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "alexis",
+    "password": "password",
+    "database": "awaree_prod",
+    "host": "127.0.0.1",
+    "port": "8889",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
