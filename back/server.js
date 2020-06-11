@@ -15,7 +15,7 @@ server.use(bodyParser.json());
 
 server.get('/', function(req, res){
   res.setHeader("Content-Type", "text/html");
-  res.status(200).send("Serveur Awaree");
+  res.status(200).send("Serveur Awaree demarré...");
 });
 
 

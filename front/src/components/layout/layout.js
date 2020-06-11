@@ -1,7 +1,8 @@
 import React from "react"
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles"
+import { useSelector} from "react-redux"
 
-import NavBar from "../nav-bar"
+import  { NavBar }  from "../nav-bar"
 
 
 const theme = createMuiTheme({
@@ -17,6 +18,10 @@ const theme = createMuiTheme({
 })
 
 const Layout = ({ children }) => {
+
+  // const user = useSelector((state)=> state.user);
+  // const validToken = useSelector((state)=> state.validToken)
+
   return (
     <>
       <MuiThemeProvider theme={theme}>
